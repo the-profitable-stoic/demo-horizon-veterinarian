@@ -1,0 +1,636 @@
+{
+  "business": {
+    "name": "Horizon Veterinarian",
+    "phone": "555-vet-r90",
+    "category": "veterinarian",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "veterinarian-trust-navy",
+      "categoryGroup": "veterinarian",
+      "name": "Trust Navy",
+      "recipeFile": "veterinarian/trust-navy.astro",
+      "colors": {
+        "primary": "#059669",
+        "primaryDark": "#047857",
+        "primaryLight": "#c1e5da",
+        "secondary": "#048059",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#059669",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Quicksand",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "veterinarian/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Compassionate Care for Asheville Pets",
+      "heroSubline": "Horizon Veterinarian provides personalized veterinary care in Asheville and surrounding areas. We understand your pet is family and treat them with the same love and attention.",
+      "aboutTitle": "Trusted Veterinary Care in Asheville",
+      "aboutText": [
+        "Founded in 2012, Horizon Veterinarian has been serving Asheville's pets with dedication and expertise. Our team of experienced veterinarians and staff are committed to providing the highest standard of care for your furry family members.",
+        "We believe in a personalized approach to veterinary medicine, taking the time to understand each pet's unique needs. From routine check-ups to complex medical cases, we treat every patient with compassion and professionalism.",
+        "As active members of the Asheville community, we're proud to support local animal shelters and participate in pet wellness events throughout Buncombe County."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Team",
+          "description": "Our veterinarians bring decades of combined experience treating Asheville's pets through all life stages."
+        },
+        {
+          "title": "Preventive Focus",
+          "description": "We emphasize preventive care to help your pet avoid health issues common in our mountain climate."
+        },
+        {
+          "title": "Modern Facility",
+          "description": "Our clinic features up-to-date diagnostic equipment while maintaining a warm, comfortable atmosphere."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "We understand the specific health challenges pets face in Western North Carolina's unique environment."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Pet's Visit Today",
+      "ctaSubline": "Contact us to book an appointment or learn more about our comprehensive veterinary services."
+    },
+    "services": [
+      {
+        "slug": "routine-exams",
+        "name": "Comprehensive Wellness Exams",
+        "shortDescription": "Thorough check-ups to maintain your pet's health through all life stages.",
+        "description": "At Horizon Veterinarian, we recommend annual wellness exams for all pets, with more frequent visits for seniors or pets with chronic conditions. Our exams include a complete physical assessment from nose to tail, checking for any signs of illness or discomfort.\n\nWe pay special attention to issues common in Asheville's climate, such as seasonal allergies and parasite prevention. Our veterinarians take time to discuss your pet's diet, exercise routine, and behavior to create a personalized care plan.\n\nFor older pets, we may recommend additional diagnostics like blood work to catch age-related conditions early. Puppies and kittens receive tailored exams to ensure proper development and vaccination schedules.",
+        "process": [
+          "Step 1: Complete physical examination including weight, temperature, and vital signs",
+          "Step 2: Discussion of your pet's lifestyle, diet, and any concerns",
+          "Step 3: Recommended vaccinations or preventive treatments",
+          "Step 4: Personalized care plan and follow-up recommendations"
+        ],
+        "benefits": [
+          "Early detection of potential health issues",
+          "Personalized preventive care recommendations",
+          "Vaccination protection tailored to local risks",
+          "Peace of mind knowing your pet is healthy"
+        ],
+        "faq": [
+          {
+            "question": "How often should my pet have a wellness exam?",
+            "answer": "We recommend annual exams for most adult pets, every 6 months for seniors, and more frequent visits for puppies/kittens during their first year."
+          },
+          {
+            "question": "What vaccinations does my pet need in Asheville?",
+            "answer": "Core vaccines plus additional protection based on your pet's lifestyle. We'll recommend a schedule based on local disease risks and your pet's exposure."
+          },
+          {
+            "question": "Do you offer same-day sick visits?",
+            "answer": "Yes, we reserve appointments each day for urgent concerns. Call early for best availability."
+          }
+        ]
+      },
+      {
+        "slug": "dental-care",
+        "name": "Professional Dental Care",
+        "shortDescription": "Complete dental services to prevent painful conditions and maintain overall health.",
+        "description": "Dental health is crucial to your pet's overall wellbeing, yet it's often overlooked. Our dental services range from routine cleanings to advanced procedures, all performed with your pet's comfort and safety in mind.\n\nWe use digital dental radiography to fully assess tooth and jaw health below the gumline, where most problems begin. Our team is trained to recognize signs of periodontal disease, which affects most pets by age 3 if untreated.\n\nFor pets needing extractions or other surgical procedures, we provide compassionate pain management and careful monitoring. We'll also teach you home care techniques to maintain your pet's dental health between visits.",
+        "process": [
+          "Step 1: Pre-anesthetic blood work to ensure safety",
+          "Step 2: General anesthesia with continuous monitoring",
+          "Step 3: Complete oral exam and digital x-rays",
+          "Step 4: Professional cleaning, polishing, and treatment as needed"
+        ],
+        "benefits": [
+          "Prevents painful dental disease",
+          "Reduces risk of systemic health problems",
+          "Fresher breath and improved comfort",
+          "Extends your pet's quality of life"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if my pet has dental problems?",
+            "answer": "Watch for bad breath, difficulty eating, pawing at the mouth, or discolored teeth. Many pets hide pain well, so regular exams are important."
+          },
+          {
+            "question": "Is anesthesia safe for dental procedures?",
+            "answer": "We perform pre-anesthetic testing and use modern protocols to minimize risk. The benefits of proper dental care far outweigh the brief anesthesia exposure."
+          },
+          {
+            "question": "What age should dental care begin?",
+            "answer": "We recommend starting annual dental exams by age 1, with cleanings as needed based on individual risk factors."
+          }
+        ]
+      },
+      {
+        "slug": "senior-pet-care",
+        "name": "Senior Pet Health Management",
+        "shortDescription": "Specialized care for aging pets to maintain comfort and quality of life.",
+        "description": "As pets enter their golden years, their healthcare needs change significantly. Our senior pet program focuses on early detection and management of age-related conditions common in Asheville's pet population.\n\nWe recommend semi-annual wellness visits for senior pets, as their health can change rapidly. Our comprehensive senior exams include blood pressure monitoring, orthopedic assessments, and screening tests tailored to your pet's breed and history.\n\nWe understand the emotional challenges of caring for an aging pet. Our team provides compassionate guidance on nutrition, pain management, and making your home more comfortable for pets with mobility issues common in our hilly terrain.",
+        "process": [
+          "Step 1: Detailed health history review and physical exam",
+          "Step 2: Diagnostic testing based on individual needs",
+          "Step 3: Discussion of age-related changes and concerns",
+          "Step 4: Customized care plan with follow-up schedule"
+        ],
+        "benefits": [
+          "Early detection of manageable conditions",
+          "Pain relief for arthritis and other age-related issues",
+          "Nutritional guidance for changing needs",
+          "Support for pet parents navigating senior care"
+        ],
+        "faq": [
+          {
+            "question": "When is a pet considered 'senior'?",
+            "answer": "This varies by breed and size, but generally cats and small dogs at 7+ years, medium dogs at 6+, and large breeds at 5+ years."
+          },
+          {
+            "question": "What are common senior pet health issues in Asheville?",
+            "answer": "We frequently see arthritis (worsened by our hilly terrain), dental disease, kidney issues, and cognitive changes in older pets."
+          },
+          {
+            "question": "Can you help with end-of-life decisions?",
+            "answer": "Yes, we provide compassionate guidance on quality of life assessments and peaceful in-home euthanasia when needed."
+          }
+        ]
+      },
+      {
+        "slug": "parasite-prevention",
+        "name": "Parasite Prevention & Control",
+        "shortDescription": "Year-round protection against ticks, fleas, and other parasites common in WNC.",
+        "description": "Western North Carolina's mild winters and humid summers create ideal conditions for parasites that threaten pet health. Our comprehensive prevention program protects against fleas, ticks, heartworms, and intestinal parasites year-round.\n\nWe tailor our recommendations based on your pet's lifestyle - whether they're hiking the Blue Ridge Parkway with you or enjoying a quieter indoor life. Our clinic carries only veterinary-approved preventatives that we know to be safe and effective in our region.\n\nFor pets already suffering from parasites, we provide effective treatment options and follow-up care. We also test for tick-borne diseases like Lyme and Ehrlichia, which are prevalent in our area.",
+        "process": [
+          "Step 1: Assessment of your pet's parasite exposure risks",
+          "Step 2: Recommendation of appropriate preventatives",
+          "Step 3: Demonstration of proper application techniques",
+          "Step 4: Follow-up testing and prevention plan adjustments"
+        ],
+        "benefits": [
+          "Protection against dangerous diseases",
+          "Reduced risk of home infestations",
+          "Peace of mind during outdoor adventures",
+          "Healthier skin and coat"
+        ],
+        "faq": [
+          {
+            "question": "Do pets need parasite prevention in winter?",
+            "answer": "Yes, our mild winters mean parasites remain active year-round. Consistent prevention is essential."
+          },
+          {
+            "question": "Are natural preventatives effective?",
+            "answer": "Most natural products lack proven efficacy against WNC parasites. We recommend vet-approved medications with demonstrated safety and effectiveness."
+          },
+          {
+            "question": "How often should my pet be tested for parasites?",
+            "answer": "We recommend annual testing for all pets, more frequently for those with higher exposure risks or previous infections."
+          }
+        ]
+      },
+      {
+        "slug": "nutritional-counseling",
+        "name": "Nutritional Counseling",
+        "shortDescription": "Personalized diet plans to support your pet's health needs and lifestyle.",
+        "description": "Proper nutrition is the foundation of your pet's health, yet with so many options available, choosing the right food can be overwhelming. Our nutritional counseling service helps you make informed decisions based on your pet's age, breed, activity level, and any medical conditions.\n\nWe consider Asheville-specific factors like seasonal activity changes and common local allergies when making recommendations. Whether your pet needs weight management support, a prescription diet, or guidance on homemade meals, we provide evidence-based advice.\n\nFor pets with health issues like diabetes or kidney disease, we create detailed feeding plans as part of their treatment protocol. We also help transition pets between life stages or food types with minimal digestive upset.",
+        "process": [
+          "Step 1: Complete assessment of your pet's current diet and body condition",
+          "Step 2: Discussion of health goals and lifestyle factors",
+          "Step 3: Personalized food and supplement recommendations",
+          "Step 4: Follow-up plan to monitor progress"
+        ],
+        "benefits": [
+          "Supports overall health and longevity",
+          "Helps manage weight and chronic conditions",
+          "Reduces allergy symptoms and digestive issues",
+          "Saves money by preventing nutrition-related health problems"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my pet is at a healthy weight?",
+            "answer": "We'll assess body condition score during your visit and show you what to look for at home. Many Asheville pets need weight management due to less outdoor activity in winter."
+          },
+          {
+            "question": "Are grain-free diets recommended?",
+            "answer": "Recent research shows grain-free may not be beneficial and could pose risks for some dogs. We'll recommend diets based on your pet's specific needs."
+          },
+          {
+            "question": "Can you help with picky eaters?",
+            "answer": "Yes, we'll identify potential causes and suggest strategies to encourage healthy eating habits."
+          }
+        ]
+      },
+      {
+        "slug": "behavioral-consultations",
+        "name": "Behavioral Consultations",
+        "shortDescription": "Expert guidance for addressing anxiety, aggression, and other behavioral challenges.",
+        "description": "Behavioral issues can strain the bond between pets and their families. Our behavioral consultations help identify the root causes of problems like separation anxiety, leash reactivity, or inappropriate elimination.\n\nWe begin with a thorough medical evaluation to rule out underlying health issues that might contribute to behavioral changes. For Asheville pets, we pay special attention to stressors like frequent thunderstorms or wildlife encounters that may trigger anxiety.\n\nOur approach combines environmental modifications, positive reinforcement training techniques, and when appropriate, medication to help pets feel more secure. We provide detailed action plans and follow-up support to ensure lasting improvement.",
+        "process": [
+          "Step 1: Complete medical history and physical exam",
+          "Step 2: Detailed behavioral assessment and history",
+          "Step 3: Customized treatment plan development",
+          "Step 4: Follow-up support and plan adjustments"
+        ],
+        "benefits": [
+          "Strengthens human-animal bond",
+          "Reduces stress for pets and owners",
+          "Prevents surrender due to behavioral issues",
+          "Creates safer, happier home environments"
+        ],
+        "faq": [
+          {
+            "question": "What behavioral issues do you commonly see in Asheville pets?",
+            "answer": "We frequently help with storm phobia, leash reactivity toward other dogs on trails, and wildlife chasing instincts in our wooded areas."
+          },
+          {
+            "question": "How long does behavior modification take?",
+            "answer": "This varies by issue and pet, but most cases show improvement within 4-6 weeks with consistent implementation of our recommendations."
+          },
+          {
+            "question": "Do you recommend medication for behavioral issues?",
+            "answer": "For some cases, medication can help pets be more receptive to training. We only prescribe after thorough evaluation and as part of a comprehensive plan."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-care",
+        "name": "Urgent & Emergency Care",
+        "shortDescription": "Prompt attention for unexpected illnesses and injuries during business hours.",
+        "description": "When your pet needs urgent care, our team provides prompt, compassionate attention during our regular hours. While we're not a 24-hour emergency clinic, we handle many urgent cases that don't require overnight monitoring.\n\nCommon emergencies we treat include toxin ingestion (especially mushrooms in our wooded areas), wounds from wildlife encounters, and sudden illnesses. We maintain well-stocked treatment areas and diagnostic equipment to assess and stabilize patients quickly.\n\nFor after-hours emergencies, we partner with local 24-hour facilities to ensure continuity of care. We'll provide all necessary records and follow up personally when your pet returns home.",
+        "process": [
+          "Step 1: Immediate triage assessment upon arrival",
+          "Step 2: Stabilization and pain management as needed",
+          "Step 3: Diagnostic testing and treatment plan development",
+          "Step 4: Clear discharge instructions and follow-up plan"
+        ],
+        "benefits": [
+          "Rapid response to urgent health concerns",
+          "Continuity of care with your regular vet",
+          "Compassionate support during stressful situations",
+          "Coordination with specialists when needed"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a veterinary emergency?",
+            "answer": "Difficulty breathing, seizures, uncontrolled bleeding, toxin ingestion, inability to urinate, or severe trauma always require immediate attention."
+          },
+          {
+            "question": "Do I need to call ahead for emergencies?",
+            "answer": "Calling en route helps us prepare, but come immediately if it's truly urgent. We'll triage based on severity upon arrival."
+          },
+          {
+            "question": "What emergency supplies should Asheville pet owners have?",
+            "answer": "We recommend keeping pet-safe ice melt, a pet first aid kit, and the numbers for our clinic and the nearest 24-hour facility readily available."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Senior Pet Care",
+        "text": "Dr. Wilson has been incredibly patient with our 14-year-old lab mix who has arthritis and kidney issues. She created a manageable treatment plan that's improved his quality of life significantly. The staff always remembers his name and makes him feel comfortable, even when he's nervous.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Michael T.",
+        "rating": 5,
+        "service": "Emergency Care",
+        "text": "When our cat ate part of a lily plant (toxic to cats!), Horizon got us in immediately. They stabilized him and explained everything clearly during a very scary time. Their follow-up calls showed genuine care. So grateful for their quick action - it saved our cat's life.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 5,
+        "service": "Dental Care",
+        "text": "Our rescue dog had terrible dental disease when we adopted him. The team at Horizon did an amazing job with his cleaning and extractions. They even called the next day to check on him. His breath is better and he's clearly more comfortable now when eating.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Behavioral Consultation",
+        "text": "Our German Shepherd was reactive on walks, making the Blue Ridge Parkway trails stressful. After working with Horizon's behavior specialist, we've seen huge improvements. Their training techniques were practical for our lifestyle and made walks enjoyable again.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Jessica M.",
+        "rating": 5,
+        "service": "Parasite Prevention",
+        "text": "Living near the French Broad River means lots of ticks. Horizon's preventive recommendations have kept our dogs protected without any side effects. They test annually and explain the local parasite risks clearly. Worth every penny for peace of mind.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Robert C.",
+        "rating": 5,
+        "service": "Nutritional Counseling",
+        "text": "Our overweight cat wasn't responding to diet changes we tried on our own. The nutritional plan from Horizon helped him lose 3 pounds safely over 6 months. They considered his arthritis and picky eating habits in their recommendations. He's more active now at age 9 than he was at 6!",
+        "date": "2024-10-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Asheville Veterinarian | Compassionate Pet Care in WNC",
+        "description": "Horizon Veterinarian provides complete veterinary services for Asheville pets. Trust our experienced team for preventive care, dental services, and emergency treatment."
+      },
+      "about": {
+        "title": "About Horizon Veterinarian | Asheville Pet Care",
+        "description": "Learn about our Asheville veterinary practice's commitment to compassionate, personalized care for pets in Western North Carolina since 2012."
+      },
+      "services": {
+        "title": "Veterinary Services in Asheville | Horizon Veterinarian",
+        "description": "Comprehensive veterinary services including wellness exams, dental care, senior pet management, and behavioral consultations in Asheville, NC."
+      },
+      "contact": {
+        "title": "Contact Horizon Veterinarian | Asheville Vet Clinic",
+        "description": "Schedule an appointment at our Asheville veterinary clinic. We serve pets throughout Buncombe County with compassionate, professional care."
+      },
+      "reviews": {
+        "title": "Client Reviews | Horizon Veterinarian Asheville",
+        "description": "Read what Asheville pet owners say about their experiences with Horizon Veterinarian's compassionate care and professional veterinary services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Horizon Veterinarian Asheville",
+        "description": "Horizon Veterinarian serves Asheville and surrounding WNC communities with complete veterinary care for dogs, cats, and other pets."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Asheville",
+        "slug": "asheville-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is proud to serve the pets and pet owners of Asheville, NC. Our clinic provides comprehensive veterinary care, including wellness exams, vaccinations, dental care, and emergency services. Asheville's vibrant community of pet lovers deserves the highest standard of care, and we're committed to delivering just that. Whether you're in downtown Asheville or the surrounding neighborhoods, our team is here to support your pet's health and happiness.",
+        "localContext": "Asheville is known for its artsy vibe, outdoor activities, and pet-friendly businesses.",
+        "nearbyAreas": [
+          "Weaverville",
+          "Black Mountain",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Weaverville",
+        "slug": "weaverville-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian extends its services to the charming town of Weaverville, NC. Our team understands the close-knit community here and provides personalized care for your furry family members. From routine check-ups to specialized treatments, we ensure your pets receive the attention they deserve. Weaverville's scenic beauty and small-town charm make it a wonderful place for pets and their owners.",
+        "localContext": "Weaverville offers a peaceful, rural atmosphere with easy access to Asheville.",
+        "nearbyAreas": [
+          "Asheville",
+          "Mars Hill",
+          "Leicester"
+        ]
+      },
+      {
+        "city": "Black Mountain",
+        "slug": "black-mountain-nc",
+        "state": "NC",
+        "content": "Serving Black Mountain, NC, Horizon Veterinarian is dedicated to keeping your pets healthy and happy. Our clinic offers a range of services, including preventive care, surgery, and grooming. Black Mountain's pet-friendly parks and trails make it a great place for pets to explore, and we're here to ensure they stay in top shape. Trust our experienced team to provide compassionate care for your beloved companions.",
+        "localContext": "Black Mountain is a picturesque town nestled in the Blue Ridge Mountains.",
+        "nearbyAreas": [
+          "Asheville",
+          "Montreat",
+          "Swannanoa"
+        ]
+      },
+      {
+        "city": "Fairview",
+        "slug": "fairview-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is honored to serve the pets of Fairview, NC. Our clinic provides top-notch veterinary services, including diagnostics, dental care, and nutritional counseling. Fairview's rolling hills and open spaces are perfect for active pets, and we're here to help them thrive. Whether you have a dog, cat, or exotic pet, our team is ready to assist with all their health needs.",
+        "localContext": "Fairview is a rural community with a strong sense of local pride.",
+        "nearbyAreas": [
+          "Asheville",
+          "Swannanoa",
+          "Hendersonville"
+        ]
+      },
+      {
+        "city": "Hendersonville",
+        "slug": "hendersonville-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is proud to serve Hendersonville, NC, and its surrounding areas. Our clinic offers comprehensive care, from routine wellness exams to advanced surgical procedures. Hendersonville's historic downtown and pet-friendly events make it a great place for pets and their owners. We're committed to providing the highest level of veterinary care to keep your pets healthy and happy.",
+        "localContext": "Hendersonville is a vibrant town with a rich agricultural heritage.",
+        "nearbyAreas": [
+          "Flat Rock",
+          "Mills River",
+          "Fletcher"
+        ]
+      },
+      {
+        "city": "Fletcher",
+        "slug": "fletcher-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian welcomes pets and their owners from Fletcher, NC. Our clinic provides a full range of veterinary services, including preventive care, diagnostics, and emergency treatments. Fletcher's family-friendly atmosphere and outdoor spaces are ideal for pets, and we're here to support their well-being. Trust our team to deliver compassionate and professional care for your furry friends.",
+        "localContext": "Fletcher is a growing community with easy access to Asheville and Hendersonville.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Arden",
+          "Mills River"
+        ]
+      },
+      {
+        "city": "Arden",
+        "slug": "arden-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is dedicated to serving the pets of Arden, NC. Our clinic offers everything from routine check-ups to specialized treatments, ensuring your pets receive the best care possible. Arden's mix of suburban and rural landscapes provides plenty of opportunities for pets to stay active and healthy. Count on our team to be there for your pets every step of the way.",
+        "localContext": "Arden is a convenient location between Asheville and Hendersonville.",
+        "nearbyAreas": [
+          "Fletcher",
+          "Skyland",
+          "Biltmore Forest"
+        ]
+      },
+      {
+        "city": "Candler",
+        "slug": "candler-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is pleased to serve the pets of Candler, NC. Our clinic provides a wide range of veterinary services, including wellness exams, vaccinations, and surgical care. Candler's rural charm and proximity to Asheville make it a great place for pet owners. We're here to ensure your pets receive the care they need to live long, healthy lives.",
+        "localContext": "Candler offers a quiet, country setting with easy access to urban amenities.",
+        "nearbyAreas": [
+          "Asheville",
+          "Leicester",
+          "Enka"
+        ]
+      },
+      {
+        "city": "Leicester",
+        "slug": "leicester-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is proud to serve Leicester, NC, and its surrounding communities. Our clinic offers comprehensive veterinary care, including preventive medicine, dental services, and emergency care. Leicester's scenic landscapes and tight-knit community make it a wonderful place for pets and their owners. We're committed to providing exceptional care tailored to your pet's needs.",
+        "localContext": "Leicester is a rural area known for its beautiful mountain views.",
+        "nearbyAreas": [
+          "Asheville",
+          "Candler",
+          "Weaverville"
+        ]
+      },
+      {
+        "city": "Swannanoa",
+        "slug": "swannanoa-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is honored to serve the pets of Swannanoa, NC. Our clinic provides a full spectrum of veterinary services, from routine check-ups to advanced diagnostics. Swannanoa's peaceful setting and outdoor recreation opportunities are perfect for pets. We're here to help your furry friends stay healthy and happy with personalized, compassionate care.",
+        "localContext": "Swannanoa is a serene valley community close to Asheville and Black Mountain.",
+        "nearbyAreas": [
+          "Black Mountain",
+          "Fairview",
+          "Asheville"
+        ]
+      },
+      {
+        "city": "Mills River",
+        "slug": "mills-river-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is delighted to serve Mills River, NC, and its pet-loving community. Our clinic offers a wide range of services, including wellness exams, surgery, and nutritional counseling. Mills River's riverside trails and parks provide plenty of exercise opportunities for pets. We're dedicated to keeping your pets healthy and thriving with top-quality veterinary care.",
+        "localContext": "Mills River is a scenic town with a strong agricultural presence.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Fletcher",
+          "Horse Shoe"
+        ]
+      },
+      {
+        "city": "Biltmore Forest",
+        "slug": "biltmore-forest-nc",
+        "state": "NC",
+        "content": "Horizon Veterinarian is proud to serve the pets of Biltmore Forest, NC. Our clinic provides exceptional veterinary care, including preventive medicine, dental services, and emergency treatments. Biltmore Forest's tree-lined streets and upscale neighborhoods are home to many beloved pets. We're committed to delivering the highest standard of care to ensure your pets live their best lives.",
+        "localContext": "Biltmore Forest is an affluent community adjacent to Asheville.",
+        "nearbyAreas": [
+          "Asheville",
+          "Arden",
+          "Skyland"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "routine-exams": "/images/service-routine-exams.webp",
+      "dental-care": "/images/service-dental-care.webp",
+      "senior-pet-care": "/images/service-senior-pet-care.webp",
+      "parasite-prevention": "/images/service-parasite-prevention.webp",
+      "nutritional-counseling": "/images/service-nutritional-counseling.webp",
+      "behavioral-consultations": "/images/service-behavioral-consultations.webp",
+      "emergency-care": "/images/service-emergency-care.webp"
+    },
+    "servicesResponsive": {
+      "routine-exams": {
+        "src": "/images/service-routine-exams.webp",
+        "srcset": "/images/service-routine-exams-400w.webp 400w, /images/service-routine-exams-800w.webp 800w, /images/service-routine-exams-1200w.webp 1200w, /images/service-routine-exams.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dental-care": {
+        "src": "/images/service-dental-care.webp",
+        "srcset": "/images/service-dental-care-400w.webp 400w, /images/service-dental-care-800w.webp 800w, /images/service-dental-care-1200w.webp 1200w, /images/service-dental-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "senior-pet-care": {
+        "src": "/images/service-senior-pet-care.webp",
+        "srcset": "/images/service-senior-pet-care-400w.webp 400w, /images/service-senior-pet-care-800w.webp 800w, /images/service-senior-pet-care-1200w.webp 1200w, /images/service-senior-pet-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "parasite-prevention": {
+        "src": "/images/service-parasite-prevention.webp",
+        "srcset": "/images/service-parasite-prevention-400w.webp 400w, /images/service-parasite-prevention-800w.webp 800w, /images/service-parasite-prevention-1200w.webp 1200w, /images/service-parasite-prevention.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "nutritional-counseling": {
+        "src": "/images/service-nutritional-counseling.webp",
+        "srcset": "/images/service-nutritional-counseling-400w.webp 400w, /images/service-nutritional-counseling-800w.webp 800w, /images/service-nutritional-counseling-1200w.webp 1200w, /images/service-nutritional-counseling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "behavioral-consultations": {
+        "src": "/images/service-behavioral-consultations.webp",
+        "srcset": "/images/service-behavioral-consultations-400w.webp 400w, /images/service-behavioral-consultations-800w.webp 800w, /images/service-behavioral-consultations-1200w.webp 1200w, /images/service-behavioral-consultations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-care": {
+        "src": "/images/service-emergency-care.webp",
+        "srcset": "/images/service-emergency-care-400w.webp 400w, /images/service-emergency-care-800w.webp 800w, /images/service-emergency-care-1200w.webp 1200w, /images/service-emergency-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
